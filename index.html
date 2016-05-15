@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Carrito de compras</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+
+	<section id="columnBg">
+		
+		<div class="inline">
+			<div class="cajaIzq">
+				<h2>Agregar elemento</h2>
+					<div>
+						<h3 class="inline">Item:</h3>
+						<input id="inputAddItem" class="inline" type="text" maxlength="12" name="inputAgregarItem">
+					</div>
+					<div>
+						<h3 class="inline">Cantidad:</h3>
+						<input id="inputAddCantidad" class="inline" type="text" maxlength="2" name="inputAgregarCantidad">
+					</div>
+					<button id="botonA" onclick="botonAgregar()">Agregar</button>
+
+			</div>
+
+
+			<div class="cajaIzq">
+				<h2>Quitar elemento</h2>
+					<div>
+						<h3 class="inline">Item:</h3>
+						<input id="inputQuitarItem" class="inline" type="text" name="inputQuitarItem">
+					</div>
+					<div>
+						<h3 class="inline">Cantidad:</h3>
+						<input id="inputQuitarCantidad" class="inline" type="text" name="inputQuitarCantidad">
+					</div>
+					<button id="botonQ" onclick="botonQuitar()">Quitar</button>
+			</div>
+
+		</div>
+
+		<div class="cajaDer inline"	>
+			<h2>Carrito de compras</h2>
+				<table style="width:80%">
+				  <th>CANTIDAD</th>
+				  <th>ITEM</th>  
+				</table>
+		</div>
+
+
+	</section>
+
+
+
+
+
+</body>
+</html>
